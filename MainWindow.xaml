@@ -1,0 +1,18 @@
+﻿<Window x:Class="demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="396" Width="349">
+    <Grid>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="33,156,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="20"/>
+        <Label Content="Login" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="60"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="33,198,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Name="t1" Margin="174,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Candara"/>
+        <TextBox HorizontalAlignment="Left" Name="t2"  Margin="174,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Candara"/>
+        <Button Content="Log In" HorizontalAlignment="Left" Margin="98,254,0,0" VerticalAlignment="Top" Height="77" Width="152" Background="#FFA5E887" FontFamily="Candara" Click="Button_Click"/>
+
+    </Grid>
+</Window>
